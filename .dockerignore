@@ -1,0 +1,16 @@
+# Docker
+docker*
+Docker*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency
+node_modules/
+
+# Git
+.git*
