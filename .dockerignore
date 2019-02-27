@@ -1,6 +1,8 @@
 # Docker
 docker*
 Docker*
+docker-compose.yml
+Dockerfile
 
 # Logs
 logs

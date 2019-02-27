@@ -1,6 +1,10 @@
-web:
-  image: ./
-  ports:
-    - 8000:8000
-  volumes:
-    - ./:/app
+version: '3'
+services:
+  app:
+    container_name: app
+    build: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/var/www/app
+    #command: sh -c 'composer create-project --prefer-dist laravel/laravel <project-name>'
