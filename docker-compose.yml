@@ -7,4 +7,5 @@ services:
       - 8000:8000
     volumes:
       - ./:/var/www/app
-    #command: sh -c 'composer create-project --prefer-dist laravel/laravel <project-name>'
+    #command: sh -c 'composer create-project --prefer-dist laravel/laravel website'
+    command: sh -c 'php artisan serve --host=0.0.0.0'
